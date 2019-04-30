@@ -4,4 +4,6 @@
 
 @section('contents')
 
+<img src="http://placehold.jp/30/dddddd/0000ff/1024x400.jpg?text=店舗のカウンターとかの目立つかっこいい写真">
+
 @endsection
