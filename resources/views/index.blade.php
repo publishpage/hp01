@@ -4,6 +4,23 @@
 
 @section('contents')
 
+
+
+<script>
+      $(function(){
+        // #で始まるリンクをクリックしたら実行されます
+        $('a[href^="#"]').click(function() {
+          // スクロールの速度
+          var speed = 400; // ミリ秒で記述
+          var href= $(this).attr("href");
+          var target = $(href == "#" || href == "" ? 'html' : href);
+          var position = target.offset().top;
+          $('body,html').animate({scrollTop:position}, speed, 'swing');
+          return false;
+        });
+      });
+</script>
+
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -274,5 +291,30 @@
     </div>
   </div>
 
-
+ <!-- Access section -->
+ <section id="access" >
+			<div class="container">
+				<div class="sec-title text-center wow animated fadeInDown">
+					<h2>Access</h2>
+					<p>Darts Bar A's神楽坂店は飯田橋駅からすぐ！！<br>地下鉄からはダッシュで30秒です！！！</p>
+				</div>
+			</div>
+			<div id="map-canvas" class="wow animated fadeInUp">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1620.0225409105433!2d139.74083548041506!3d35.70050821237232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c5b4ab33f37%3A0x94486b445e758ce1!2z44CSMTYyLTA4MjUg5p2x5Lqs6YO95paw5a6_5Yy656We5qW95Z2C77yR5LiB55uu77yR77yQ!5e0!3m2!1sja!2sjp!4v1538398115067" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      <div class="text-left">
+        <table class="table table-bordered">
+          <tr>
+            <th>JR飯田橋駅から</th>
+            <td>西口改札を出て、早稲田通りを神楽坂方面に右折し、神田川を渡ってください。<br>上を見上げると「4階は、ダーツバー」という看板が見えます。<br>神楽坂下の交差点の信号を渡るとすぐ左手のモスバーガーの隣のビルの4Fです。</td>
+          </tr>
+          <tr>
+            <th>地下鉄飯田橋駅から</th>
+            <td>b3出口を出ると、すぐ目の前に大きな看板「Darts Bar A's(エース)」が見えます。一階に蕎麦屋さんがあるビルの4Fです。<br>都営大江戸線・東京メトロ東西線：徒歩5分<br>東京メトロ有楽町線・南北線：徒歩1分</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+		</section>
+    <!-- end Access section -->
 @endsection

@@ -21,7 +21,7 @@
             <a class="nav-link" href="#">Recruit</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Map</a>
+            <a class="nav-link" href="#access">Map</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>

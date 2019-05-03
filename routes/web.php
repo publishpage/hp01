@@ -18,6 +18,11 @@ Route::get('/', function () {
 Route::get('/menu', function () {
     return view('menu');
 });
+
+Route::get('/up', function () {
+    return view('admin.upload');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
