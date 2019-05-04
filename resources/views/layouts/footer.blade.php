@@ -4,15 +4,15 @@
 <div class="container">
 <div class="row">
 <div class="col-sm-6 copyrt xs-center">
-	2015 © All Rights Reserved. <a href="">Terms & Conditions</a> | <a href="">Privacy Policy</a>
+	2019 © All Rights Reserved. <a href="">Y.Yoshimoto</a>
 </div>
 <div class="col-sm-6 text-right xs-center">
-	<ul class="list-inline footer-social">
+	<ul class="d-flex justify-content-end list-inline footer-social ">
 		<li><a href=""><i class="fa fa-facebook"></i></a></li>
-		<li><a href=""><i class="fa fa-twitter"></i></a></li>
-		<li><a href=""><i class="fa fa-youtube-play"></i></a></li>
-		<li><a href=""><i class="fa fa-google-plus"></i></a></li>
-		<li><a href=""><i class="fa fa-skype"></i></a></li>
+		<li><a href=""><i class="fa fa-twitter ml-3"></i></a></li>
+		<li><a href=""><i class="fa fa-youtube-play ml-3"></i></a></li>
+		<li><a href=""><i class="fa fa-google-plus ml-3"></i></a></li>
+		<li><a href=""><i class="fa fa-skype ml-3"></i></a></li>
 	</ul>
 </div>
 </div>
