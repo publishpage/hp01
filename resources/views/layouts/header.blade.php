@@ -18,7 +18,7 @@
             <a class="nav-link" href="#">Info</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Recruit</a>
+            <a class="nav-link" href="/tournament">Tournament</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#access">Map</a>

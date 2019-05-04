@@ -19,6 +19,10 @@ Route::get('/menu', function () {
     return view('menu');
 });
 
+Route::get('/tournament', function () {
+    return view('tournament');
+});
+
 Route::get('/up', function () {
     return view('admin.upload');
 });
