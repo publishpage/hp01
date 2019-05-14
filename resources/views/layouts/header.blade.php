@@ -9,16 +9,16 @@
       <a class="navbar-brand" href="#">Fixed navbar</a>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
+          <li class="nav-item {{ Request::is('/') ? 'active' : '' }}">
             <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item {{ Request::is('menu') ? 'active' : '' }}" >
             <a class="nav-link" href="/menu">Menu</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Info</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item {{ Request::is('tournament') ? 'active' : '' }}">
             <a class="nav-link" href="/tournament">Tournament</a>
           </li>
           <li class="nav-item">
